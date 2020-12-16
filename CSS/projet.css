@@ -1,0 +1,135 @@
+*{
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Noto Sans JP;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #1e1f1c !important;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  display: inline-block;
+  background-color: #1d1615;
+  height: auto;
+  width: auto;
+  border-bottom-right-radius: 30px;
+  padding-right: 10px;
+}
+
+.separateur {
+  display: block;
+  padding: 50px;
+}
+
+ul.filters {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 15px 0;
+}
+
+ul.filters li{
+  display: inline-block;
+}
+
+ul.filters li a {
+  display: block;
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+ul.filters li a:hover {
+  color: #b9b4b4;
+}
+
+ul.filters li.active a {
+  color: #f5b82e;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 50px;
+  background-color: #1d1615;
+  border: 1px solid #1b1514;
+  box-shadow: 1px 1px 1px 1.5px rgba(0,0,0,0.075);
+}
+
+.card-head {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0 !important;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9; 
+  background-color:#1e1f1ca0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -ms-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+.card-hover {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f5b82e ;
+  z-index: 10;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 30px;
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -ms-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+.card-body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4.title {
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.card-btn {
+  margin-bottom: -10px;
+  width: 100%;
+  color: #000000;
+  font-size: 0.9em;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.card-btn:hover{
+  background-color: #3c6e71;
+  border: #3c6e71;
+  color: #ffffff;
+}

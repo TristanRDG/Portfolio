@@ -1,0 +1,46 @@
+*{
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Noto Sans JP;
+}
+
+body {
+  background-color: #1e1f1c;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_cv {
+  display: block;
+  width: 595px; /*size of the pdf*/
+  margin: 0px auto;
+  text-align: center;
+}
+
+.container_iframe_cv iframe {
+
+  border-style: none;
+  overflow: auto;
+}
+
+.download_link {
+  color: #ffffff;
+  font-style: italic;
+  font-size: x-small;
+  text-align: left;
+  margin-top: 42px;
+}
+
+.download_link p {
+  color: #ffffff;
+}
+
+.download_link img {
+  vertical-align: baseline;
+}

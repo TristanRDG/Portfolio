@@ -1,0 +1,52 @@
+*{
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Noto Sans JP;
+  text-decoration: none;
+}
+
+body {
+  background-color: #1e1f1c;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 42px;
+}
+
+h2.compPrincipale {
+  color: #ffffff;
+  font-size: 3em;
+  margin: 30px;
+}
+
+h2.compTitre {
+  color: #ffffff;
+  font-size: 2em;
+  margin: 30px;
+}
+
+ul.listComp {
+  padding-left: 35px;
+}
+
+.listComp a {
+  color: #b9b4b4;
+  font-size: 1.5em;
+}
+
+.listComp a:hover {
+  color: #f5b82e;
+}
+
+.separateur {
+  display: block;
+  padding: 1px;
+  margin-top: 30px;
+  width: 500px;
+  background-color: #ffffff;
+}

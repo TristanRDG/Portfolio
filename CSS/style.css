@@ -1,0 +1,146 @@
+*{
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Noto Sans JP;
+}
+
+body {
+  background-color: #3c6e71;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../medias/images/font.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_flex {
+  background-color: #fff5e2;
+  width: 65%;
+  box-sizing: border-box;
+  height: 100%;
+  text-align: center;
+  font-weight: 200;
+  font-size: 16px;
+  padding: 10px;
+  display: flex; 
+  
+  justify-content: center;
+  position: absolute;/*centrer div*/
+  left: 50%;
+  transform: translate(-50%,0);/*fin*/
+}
+
+.content {
+  margin-top: 42px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_transparent {
+  background-image: url("../medias/images/opacité65.png");
+  display: block;
+  width: 40%;
+  padding: 45px 65px;
+  margin: 7% auto;
+}
+
+.adresses {
+  background-color: #ffffff;
+  padding: 20px 20px; 
+  text-align: center;
+  
+}
+
+.adresses h2 {
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.adresses table {
+  width: 100%;
+  margin-top: 65px;
+  margin-bottom: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.adresses td {
+  width: 50%;
+  padding: 10px;
+}
+
+.adresses td img {
+  max-width: 50px;
+}
+
+.container_grid {
+  background-color: #fff5e2;
+  width: 65%;
+  box-sizing: border-box;
+  font-weight: 200;
+  font-size: 16px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 50%); 
+  grid-auto-rows: 170px;
+  grid-column-gap: 10px;
+  padding: 10% 10%;
+  margin: 7% auto;
+  position: absolute;/*centrer div*/
+  left: 50%;
+  transform: translate(-50%,0);/*fin*/
+  border-radius: 20px;
+}
+
+.content_doc {
+  text-align: center;
+}
+
+.content_doc img {
+  max-height: 150px;
+  min-height: 50px;
+}
+
+.black_column {
+  background-color: #1e1f1c;
+  width: 65%;
+  box-sizing: border-box;
+  height: 100%;
+  text-align: center;
+  font-weight: 200;
+  font-size: 16px;
+  padding: 10px;
+  display: flex; 
+  
+  justify-content: center;
+  position: absolute;/*centrer div*/
+  left: 50%;
+  transform: translate(-50%,0);/*fin*/
+}
+
+.separateur {
+  padding: 42px;
+}
+
+h1.main_title {
+  font-weight: 800;
+  font-size: 4em;
+}
+
+p.presentation {
+  font-size: 1.1em;
+}
+
+div.index_grid {
+  background-color: #ffffff00;
+  padding-top: 0;
+  margin: 20px;
+}
+
+h3.grid_title {
+  padding-top: 100px;
+}
